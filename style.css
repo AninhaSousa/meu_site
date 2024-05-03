@@ -1,0 +1,68 @@
+body{
+    font-family: "Dangrek", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff898;
+}
+
+
+
+header> ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header > ul > li{
+    font-size: 40px;
+}
+header > ul > li:hover{
+    color:#b37400 ;
+    transition: 0.5s;
+}
+header div img{
+    width: 240px;
+    height: 250;
+    display: flex;
+    margin: 10px;
+
+}
+
+header,footer{
+    background-color:#ffea8f;
+    color:#000000
+    ;
+    padding: 15px;
+
+}
+
+
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center; 
+    color: #000000;
+    
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+
+}
+
+
+.foto1 img, .foto2 img, .foto3 img {
+   width: 500px;
+   height: 300px;
+}
+
+
+footer h6{
+    text-align: center;
+}
